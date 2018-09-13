@@ -1,16 +1,12 @@
 package com.denis.spring5webapp.model;
 
-import org.springframework.boot.autoconfigure.domain.EntityScan;
-
 import javax.persistence.*;
-
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
 
 
 @Entity
-@EntityScan("package_name")
 public class Author {
 
     @Id
